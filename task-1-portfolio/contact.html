@@ -14,128 +14,99 @@
     <meta property="og:title" content="Contact | Ritesh Shinde">
     <meta property="og:description" content="Contact Ritesh Shinde.">
     <meta property="og:type" content="website">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
 
     <header>
-        <h1>Ritesh Shinde</h1>
+        <div class="container">
+            <h1>Ritesh Shinde</h1>
 
-        <nav aria-label="Primary navigation">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html" aria-current="page">Contact</a></li>
-            </ul>
-        </nav>
+            <nav aria-label="Primary navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html" aria-current="page">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
 
-        <section>
+        <section class="contact">
+            <div class="container">
 
-            <h2>Contact Me</h2>
+                <h2>Contact Me</h2>
 
-            <p>
-                Have a question or would like to connect? Feel free to send me
-                a message using the form below.
-            </p>
+                <p>
+                    Have an opportunity or just want to connect?
+                    Feel free to reach out.
+                </p>
 
-            <form action="#" method="post">
+                <form>
 
-                <div>
-                    <label for="name">Name</label><br>
+                    <label for="name">Name</label>
                     <input
                         type="text"
                         id="name"
                         name="name"
                         required
                     >
-                </div>
 
-                <br>
-
-                <div>
-                    <label for="email">Email</label><br>
+                    <label for="email">Email</label>
                     <input
                         type="email"
                         id="email"
                         name="email"
                         required
                     >
-                </div>
 
-                <br>
+                    <label for="message">Message</label>
 
-                <div>
-                    <label for="message">Message</label><br>
                     <textarea
                         id="message"
                         name="message"
                         rows="6"
                         required
                     ></textarea>
-                </div>
 
-                <br>
+                    <button class="btn" type="submit">
+                        Send Message
+                    </button>
 
-                <button type="submit">
-                    Send Message
-                </button>
+                </form>
 
-            </form>
-
+            </div>
         </section>
-
-        <aside>
-
-            <h2>Other Ways to Reach Me</h2>
-
-            <address>
-
-                <p>
-                    Email:
-                    <a href="mailto:shinderitesh217@gmail.com">
-                        shinderitesh217@gmail.com
-                    </a>
-                </p>
-
-                <p>
-                    LinkedIn:
-                    <a href="https://www.linkedin.com/in/ritesh-shinde2006"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        Ritesh Shinde
-                    </a>
-                </p>
-
-            </address>
-
-        </aside>
 
     </main>
 
     <footer>
-        <p>&copy; 2026 Ritesh Shinde. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2026 Ritesh Shinde. All rights reserved.</p>
 
-        <nav aria-label="Footer navigation">
-            <ul>
-                <li>
-                    <a href="mailto:shinderitesh217@gmail.com">
-                        Email Me
-                    </a>
-                </li>
+            <nav aria-label="Footer navigation">
+                <ul>
+                    <li>
+                        <a href="mailto:shinderitesh217@gmail.com">
+                            Email Me
+                        </a>
+                    </li>
 
-                <li>
-                    <a href="https://www.linkedin.com/in/ritesh-shinde2006"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        LinkedIn
-                    </a>
-                </li>
-            </ul>
-        </nav>
+                    <li>
+                        <a href="https://www.linkedin.com/in/ritesh-shinde2006"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </footer>
 
 </body>
